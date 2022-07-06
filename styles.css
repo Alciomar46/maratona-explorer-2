@@ -1,0 +1,140 @@
+/*Zerar a Confirguração inicial da página*/
+* {
+    /*Margem em 0 pixel*/
+    margin: 0;
+    /*Preenchimento em 0 pixel*/
+    padding: 0;
+    /*Tamanho da caixa será calculado com base nos limites das bordas*/
+    box-sizing: border-box;
+  }
+  
+  /*Estilização geral*/
+  .geral {
+    /*alinhar texto ao centro*/
+    text-align: center;
+    /*Largura em 300 pixels*/
+    width: 300px;
+    /*Tamanho da Caixa geral em 20 pixels em cima e embaixo e automático nas laterais*/
+    margin: 20px auto;
+  }
+  
+  /*Estilizando a imagem*/
+  .selfie {
+    /*Largura em 100%*/
+    width: 100%;
+    /*Borda com 10 pixels / cor / sólido*/
+    border: 10px #4263EB solid;
+    /*Preenchimento em 5 pixels*/
+    padding: 5px;
+    /*Formar a imagem em círculo de tamanho de 50%*/
+    border-radius: 50%;
+    /*Altura 100%*/
+    height: 100%;
+  }
+  
+  /*Estilizando o nome (h1)*/
+  .my_name {
+    /*Distância de cima em 24 pixels*/
+    margin-top: 24px;
+    /*Distância de baixo em 8 pixels*/
+    margin-bottom: 8px;
+    /*Cor*/
+    color: #00082F;
+    /*Tamanho da fonte em 32 pixels*/
+    font-size: 32px;
+  }
+  
+  /*Estilizando link do GitHub (p) */
+  .my_profile {
+    /*Tipo de Fonte*/
+    font-family: 'Roboto Mono', monospace;
+    /*Peso da fonte*/
+    font-weight: 400;
+    /*Cor da fonte*/
+    color: #00082F;
+    /*Opacidade em 0.8 (Mais escuro)*/
+    opacity: 0.8;
+    /*Tamanho da fonte em 18 pixels*/
+    font-size: 18px;
+  }
+  
+  /*Nota de Roda pé (footer)*/
+  .rodape {
+    /*Distância de baixo em 48 pixels */
+    margin-bottom: 48px;
+    /*Fonte que será usada*/
+    font-family: 'Roboto', sans-serif;
+    /*Peso da fonte*/
+    font-weight: 500;
+    /*Tamanho da fonte*/
+    font-size: 15px;
+    /*Cor da fonte*/
+    color: #00082F;
+    /*Opacidade em 0.6 (meio claro e meio escuro) */
+    opacity: 0.6;
+    /*Mudança de opacidade quando o mouse passar por cima em 500 milisegundos*/
+    transition: opacity 400ms;
+  }
+  
+  /*Estilizando toda a caixa*/
+  body {
+    /*Cor de fundo*/
+    background-color: #EDF2FF;
+    /*fonte que será usada*/
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /*Estilizando os links*/
+  a {
+    /*Retirar o sublinhado de todos os links*/
+    text-decoration: none;
+  }
+  
+  /*Estilizando todas as listas não ordenadas*/
+  ul {
+    /*Retirar a bolinha do lado esquerdo*/
+    list-style: none;
+    /*Distância entre o link do GitHub e a lista de links, com 8 pixels em cima e embaixo e automático nas laterais*/
+    margin: 8px auto;
+  }
+  
+  /*Estilizando somente os Links das listas*/
+  ul li a {
+    /*Peso da fonte*/
+    width: 300;
+    /*altura da fonte*/
+    height: 53px;
+    /*Tipo de display*/
+    display: flex;
+    /*Alinhando todos os itens ao centro*/
+    align-items: center;
+    /*Colocando todos os conteúdos justificados ao centro*/
+    justify-content: center;
+    /*Dando cor à caixa dos links*/
+    background-color: #4263EB;
+    /*Dando cor às letras dos links*/
+    color: white;
+    /*Colocando todas as letras em Caixa alta (Maiúsculas)*/
+    text-transform: uppercase;
+    /*Tamanho da fonte*/
+    font-size: 14px;
+    /*Distância entres os links da lista*/
+    margin-bottom: 16px;
+    /*Dando arredondamento às caixas dos links*/
+    border-radius: 6px;
+    /*Mudança de cor quando o mouse passa por cima*/
+    transition: background 500ms;
+  }
+  
+  /*Ativando função de passar o mouse por cima*/
+  ul li a:hover {
+    /*Cor q será alterada ao passar o mouse por cima*/
+    color: #364FC7;
+    
+  }
+  
+  /*Ativando função de passar o mouse por cima*/
+  footer:hover {
+    /*Opacidade que passará a ter quando o mouse passar por cima*/
+  opacity: 1;
+  }
